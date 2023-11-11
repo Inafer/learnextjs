@@ -1,40 +1,30 @@
-.navbar ul {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style-type: none;
-}
-
-.navbar ul li {
-  font-size: 20px;
-}
-
-.navbar ul li a{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
 /* global.css */
 nav {
   background-color: #333;
   color: white;
+  text-align: center; 
 }
 
-ul {
+ul, .navbar ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-li {
+li, .navbar ul li {
   display: inline;
   margin: 0 10px;
+  font-size: 20px;
 }
 
-a {
+a, .navbar ul li a {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
-  text-decoration: underline;
+a:hover, .navbar ul li a:hover {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
 }
