@@ -1,9 +1,9 @@
 import {Navbar} from "./components/Navbar";
-export default function home() {
+export default function about() {
   return (
     <>
     <Navbar />
-    <h1>Hallo World</h1>
+    <h1>About</h1>
     </>
   );
   

@@ -1,9 +1,9 @@
 import {Navbar} from "./components/Navbar";
-export default function home() {
+export default function profil() {
   return (
     <>
     <Navbar />
-    <h1>Hallo World</h1>
+    <h1>Profil</h1>
     </>
   );
   
